@@ -1,0 +1,211 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "German Ruiz",
+    "label": "Software Engineer",
+    "image": "https://media-exp1.licdn.com/dms/image/C4E03AQHfsA4xZPXZgQ/profile-displayphoto-shrink_400_400/0?e=1608163200&v=beta&t=iFv560zN634pi3bp628zIMrXitZyaa8oDshHY3x__Ac",
+    "email": "germanruizravi@gmail.com",
+    "summary": "I'm a Software Engineer with more than 7 years of experience working as a full-stack web developer. I like to build apps from the ground up and I'm always eager to learn new technologies and find complex problems to solve.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Montevideo",
+      "countryCode": "UY",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "germán-ruiz-ba315a59",
+        "url": "https://www.linkedin.com/in/germán-ruiz-ba315a59/"
+      },
+      {
+        "network": "GitHub",
+        "username": "gruiz90",
+        "url": "https://github.com/gruiz90"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Altimetrik Uruguay",
+      "company": "Altimetrik Uruguay",
+      "location": "Montevideo, UY",
+      "position": "Tech Lead",
+      "url": "https://www.linkedin.com/company/11697929",
+      "startDate": "2020-04-30",
+      "summary": "Full-stack developer with focus in Python and React projects, also doing research and POC/MVPs for possible customers. Determine time estimations, resources needed and arquitecture teck stack to use in different frontend projects (e-commerce, web portals).",
+      "highlights": [
+        "Worked with a team developing a MVP of a Web Portal connecting with Cisco NSO using React.",
+        "Worked with a team inside Altimetrik on a VR Demo using Unity Engine.",
+        "Implemented a Python serverless function to run on AWS Lambda.",
+        "Developed a Flask API Microservice to integrate with a customer's system as a linux container.",
+        "Headless e-commerce development using Gatsby and GraphQL connecting to CMS/Ecommerce platforms."
+      ]
+    },
+    {
+      "name": "Altimetrik Uruguay",
+      "company": "Altimetrik Uruguay",
+      "location": "Montevideo, UY",
+      "position": "Lead Software Developer",
+      "url": "https://www.linkedin.com/company/11697929",
+      "startDate": "2015-10-31",
+      "endDate": "2020-04-30",
+      "summary": "Worked in lots of projects within Salesforce Service Cloud. The main focus was to develop apps that connect the customers with Social Networks and Mobile Platforms. The two main projects were \"LiveMessage\" and \"Surveys for SCS and LiveMessage\". Both of these projects packages are listed in Salesforce AppExchange.",
+      "highlights": [
+        "Worked on projects directly with Service Cloud teams and different product owners.",
+        "Used Apex / Visualforce / Lightning Components.",
+        "Used Heroku, Postgress, Redis and Apache Kafka to develop a middleware/API in Java.",
+        "Integrations with Social Networks APIs (Twitter, Facebook, Google).",
+        "Integrations with mobiles messenger apps (Wechat, Line, Telegram, Apple Business Chat).",
+        "Developed a Salesforce package called \"Surveys for SCS and LiveMessage\".",
+        "The package is used by companies like KLM, AirAsia, Shopee, Bank Of America and has generated more than 5M surveys by mid 2020.",
+        "Integration with Reddit's API by developing a Django Rest API in Heroku.",
+        "Developed a Salesforce package that allows users to interact with a Reddit account."
+      ]
+    },
+    {
+      "name": "Altimetrik Uruguay",
+      "company": "Altimetrik Uruguay",
+      "location": "Montevideo, UY",
+      "position": "Salesforce Developer",
+      "url": "https://www.linkedin.com/company/11697929",
+      "startDate": "2014-10-15",
+      "endDate": "2015-10-31",
+      "summary": "Worked in a project for Hospital Housekeeping Systems (HHS) as a Salesforce developer. The customer used Salesforce.com internally to keep several business data and processes streamlined and automated. My team main tasks were to enhance their system functionalities.",
+      "highlights": [
+        "Worked with the Salesforce CRM Platform.",
+        "Used Apex and Visualforce Salesforce technologies."
+      ]
+    },
+    {
+      "name": "Tata Consultancy Services",
+      "company": "Tata Consultancy Services",
+      "location": "Montevideo, UY",
+      "position": ".Net Developer",
+      "url": "https://www.linkedin.com/company/1353",
+      "startDate": "2013-06-30",
+      "endDate": "2014-10-14",
+      "summary": "Development and maintenance of web/desktop applications using the ASP.Net Framework for American Express.",
+      "highlights": [
+        "Worked with ASP.NET Web Forms and MVC Frameworks.",
+        "Used Windows Presentation Foundation (WPF) to develop an internal TCS desktop application."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Facultad de Ingeniería (UdelaR)",
+      "url": "https://www.fing.edu.uy/",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor in Computer Science (BCS) - Ingeniero en Computación",
+      "startDate": "2008-02-29",
+      "endDate": "2017-02-03",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "Optimización evolutiva del tráfico urbano y las emisiones vehiculares",
+      "publisher": "Programación Matemática y Software",
+      "releaseDate": "2016-02-29",
+      "url": "http://www.progmat.uaem.mx:8080/vol8nu1ar6.html",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "Javascript / Typescript",
+        "Java / Apex",
+        "HTML & CSS",
+        "SQL",
+        "C#",
+        "C / C++",
+        "Ruby"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+        "Django / Flask",
+        "Node / React (CRA, Gatsby)",
+        "ASP.NET MVC",
+        "Spark Java",
+        "Ruby on Rails"
+      ]
+    },
+    {
+      "name": "Cloud, Servers and Databases",
+      "keywords": [
+        "Salesforce / Heroku / AWS Lambda / Netlify",
+        "Linux (Nginx / Apache)",
+        "PostgreSQL / MySQL / Microsoft SQL Server",
+        "Redis / Apache Kafka"
+      ]
+    },
+    {
+      "name": "Tools and Others",
+      "keywords": [
+          "Git / Github",
+          "Visual Studio Code",
+          "npm / yarn / pip / maven",
+          "Docker",
+          "Virtual Box / VMWare",
+          "Agile / SCRUM"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Complete professional competence"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cybersecurity",
+      "keywords": [
+        "OWASP",
+        "Ethical hacking",
+        "Cisco",
+        "HackerOne",
+        "PenTesting"
+      ]
+    },
+    {
+      "name": "Machine Learning and AI",
+      "keywords": [
+        "AI and Robotics",
+        "Neural Networks",
+        "Deep Learning",
+        "PyTorch / TensorFlow"
+      ]
+    },
+    {
+      "name": "Decentralization Technologies",
+      "keywords": [
+        "Internet and the Web",
+        "Blockchain",
+        "Privacy",
+        "Energy"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
