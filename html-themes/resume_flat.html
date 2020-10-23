@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>German Ruiz</title>
+    <meta name="description" content="I&#x27;m a Software Engineer with more than 7 years of experience working as a full-stack web developer. I like to build apps from the ground up and I&#x27;m always eager to learn new technologies and find complex problems to solve." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" />
+    <style>:root {
+  /* Colors */
+  --primaryColor: #212529;
+  --secondaryColor: #95a5a6;
+  --accentColor: #f1c40f;
+  --linkColor: #2ecc71;
+  --mutedColor: #f4f6f6;
+
+  /* Typography */
+  --ratio: 1.25;
+  --scale0: 1rem;
+  --scale1: calc(var(--scale0) * var(--ratio));
+  --scale2: calc(var(--scale1) * var(--ratio));
+  --scale3: calc(var(--scale2) * var(--ratio));
+  --scale4: calc(var(--scale3) * var(--ratio));
+  --scale5: calc(var(--scale4) * var(--ratio));
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  color: var(--primaryColor);
+  display: grid;
+  font: 1em/1.5 Lato, sans-serif;
+  gap: 2em;
+  grid-template-columns:
+    [full-start]
+    1fr
+    [main-start side-start]
+    minmax(min-content, 12em)
+    [side-end content-start]
+    minmax(min-content, 36em)
+    [main-end content-end]
+    1fr
+    [full-end];
+  grid-template-rows: auto [content] 0;
+  margin-bottom: 4em;
+}
+
+body::before {
+  content: '';
+  grid-column: full;
+  grid-row: content;
+}
+
+ol,
+ul {
+  padding-left: 1em;
+}
+
+li + li {
+  margin-top: 0.2em;
+}
+
+li::marker {
+  color: var(--mutedColor);
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:focus,
+a:hover {
+  color: var(--accentColor);
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--scale5);
+}
+
+h2 {
+  color: var(--secondaryColor);
+  font-size: var(--scale4);
+}
+
+h3 {
+  color: var(--accentColor);
+  font-size: var(--scale3);
+  grid-column: side;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: var(--scale2);
+}
+
+h5 {
+  font-size: var(--scale1);
+}
+
+h6 {
+  font-size: var(--scale0);
+}
+
+p:not(:first-child) {
+  margin-top: 1em;
+}
+
+p:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+blockquote {
+  border-left: 0.2em solid var(--mutedColor);
+  padding-left: 1em;
+}
+
+cite {
+  color: var(--secondaryColor);
+  font-style: inherit;
+}
+
+cite::before {
+  content: '— ';
+}
+
+header {
+  background: var(--mutedColor);
+  display: inherit;
+  gap: inherit;
+  grid-column: full;
+  grid-template-columns: inherit;
+  padding: 4em 0;
+  row-gap: 0;
+}
+
+header > *,
+section {
+  grid-column: main;
+}
+
+.stack {
+  display: grid;
+  gap: 1.5em;
+}
+
+.grid-list {
+  display: grid;
+  gap: 1em;
+}
+
+.spaced-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spaced-list:first-child::before {
+  border-bottom: 1px solid var(--mutedColor);
+  content: '';
+  flex-grow: 1;
+  margin: 0 1em;
+  order: 1;
+}
+
+.spaced-list > :nth-child(2) {
+  order: 2;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.tag-list > li {
+  background: var(--mutedColor);
+  margin: 0 0.2em 0.2em 0;
+  padding: 0.2em 0.6em;
+}
+
+@media (min-width: 48em) {
+  h3 {
+    text-align: right;
+    margin-bottom: inherit;
+  }
+
+  header > *,
+  section {
+    grid-column: content;
+  }
+
+  section {
+    display: contents;
+  }
+
+  .grid-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
+  </head>
+  <body>
+      <header>
+          <h1>German Ruiz</h1>
+          <h2>Software Engineer</h2>
+      </header>
+      <section id="contact">
+        <h3>Contact</h3>
+        <div class="grid-list">
+            <div>
+              <h6>Email</h6>
+              <a href="mailto:germanruizravi@gmail.com">germanruizravi@gmail.com</a>
+            </div>
+        </div>
+      </section>
+        <section id="about">
+          <h3>About</h3>
+          <div>
+            <p>I&#x27;m a Software Engineer with more than 7 years of experience working as a full-stack web developer. I like to build apps from the ground up and I&#x27;m always eager to learn new technologies and find complex problems to solve.</p>
+          </div>
+        </section>
+        <section id="profiles">
+          <h3>Profiles</h3>
+          <div class="grid-list">
+              <div>
+                  <h6>LinkedIn</h6>
+                    <a href="https://www.linkedin.com/in/germán-ruiz-ba315a59/">germán-ruiz-ba315a59</a>
+              </div>
+              <div>
+                  <h6>GitHub</h6>
+                    <a href="https://github.com/gruiz90">gruiz90</a>
+              </div>
+          </div>
+        </section>
+
+      <section id="work">
+        <h3>Work</h3>
+        <div class="stack">
+            <article>
+              <div class="spaced-list">
+                <h4>Altimetrik Uruguay</h4>
+                <span>
+                  <time datetime="2020-04-30">Apr 2020</time> –
+                  Present
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Tech Lead</strong>
+                  <a href="https://www.linkedin.com/company/11697929">https://www.linkedin.com/company/11697929</a>
+              </div>
+                <p>Full-stack developer with focus in Python and React projects, also doing research and POC/MVPs for possible customers. Determine time estimations, resources needed and arquitecture teck stack to use in different frontend projects (e-commerce, web portals).</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Worked with a team developing a MVP of a Web Portal connecting with Cisco NSO using React.</li>
+                    <li>Worked with a team inside Altimetrik on a VR Demo using Unity Engine.</li>
+                    <li>Implemented a Python serverless function to run on AWS Lambda.</li>
+                    <li>Developed a Flask API Microservice to integrate with a customer&#x27;s system as a linux container.</li>
+                    <li>Headless e-commerce development using Gatsby and GraphQL connecting to CMS/Ecommerce platforms.</li>
+                </ul>
+            </article>
+            <article>
+              <div class="spaced-list">
+                <h4>Altimetrik Uruguay</h4>
+                <span>
+                  <time datetime="2015-10-31">Oct 2015</time> –
+                  <time datetime="2020-04-30">Apr 2020</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Lead Software Developer</strong>
+                  <a href="https://www.linkedin.com/company/11697929">https://www.linkedin.com/company/11697929</a>
+              </div>
+                <p>Worked in lots of projects within Salesforce Service Cloud. The main focus was to develop apps that connect the customers with Social Networks and Mobile Platforms. The two main projects were &quot;LiveMessage&quot; and &quot;Surveys for SCS and LiveMessage&quot;. Both of these projects packages are listed in Salesforce AppExchange.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Worked on projects directly with Service Cloud teams and different product owners.</li>
+                    <li>Used Apex / Visualforce / Lightning Components.</li>
+                    <li>Used Heroku, Postgress, Redis and Apache Kafka to develop a middleware/API in Java.</li>
+                    <li>Integrations with Social Networks APIs (Twitter, Facebook, Google).</li>
+                    <li>Integrations with mobiles messenger apps (Wechat, Line, Telegram, Apple Business Chat).</li>
+                    <li>Developed a Salesforce package called &quot;Surveys for SCS and LiveMessage&quot;.</li>
+                    <li>The package is used by companies like KLM, AirAsia, Shopee, Bank Of America and has generated more than 5M surveys by mid 2020.</li>
+                    <li>Integration with Reddit&#x27;s API by developing a Django Rest API in Heroku.</li>
+                    <li>Developed a Salesforce package that allows users to interact with a Reddit account.</li>
+                </ul>
+            </article>
+            <article>
+              <div class="spaced-list">
+                <h4>Altimetrik Uruguay</h4>
+                <span>
+                  <time datetime="2014-10-15">Oct 2014</time> –
+                  <time datetime="2015-10-31">Oct 2015</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Salesforce Developer</strong>
+                  <a href="https://www.linkedin.com/company/11697929">https://www.linkedin.com/company/11697929</a>
+              </div>
+                <p>Worked in a project for Hospital Housekeeping Systems (HHS) as a Salesforce developer. The customer used Salesforce.com internally to keep several business data and processes streamlined and automated. My team main tasks were to enhance their system functionalities.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Worked with the Salesforce CRM Platform.</li>
+                    <li>Used Apex and Visualforce Salesforce technologies.</li>
+                </ul>
+            </article>
+            <article>
+              <div class="spaced-list">
+                <h4>Tata Consultancy Services</h4>
+                <span>
+                  <time datetime="2013-06-30">Jun 2013</time> –
+                  <time datetime="2014-10-14">Oct 2014</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>.Net Developer</strong>
+                  <a href="https://www.linkedin.com/company/1353">https://www.linkedin.com/company/1353</a>
+              </div>
+                <p>Development and maintenance of web/desktop applications using the ASP.Net Framework for American Express.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Worked with ASP.NET Web Forms and MVC Frameworks.</li>
+                    <li>Used Windows Presentation Foundation (WPF) to develop an internal TCS desktop application.</li>
+                </ul>
+            </article>
+        </div>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+        <div class="stack">
+            <article>
+              <div class="spaced-list">
+                <h4>Facultad de Ingeniería (UdelaR)</h4>
+                <span>
+                  <time datetime="2008-02-29">Feb 2008</time> –
+                  <time datetime="2017-02-03">Feb 2017</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Computer Engineering</strong>
+                  <a href="https://www.fing.edu.uy/">https://www.fing.edu.uy/</a>
+              </div>
+                <p>Bachelor in Computer Science (BCS) - Ingeniero en Computación</p>
+            </article>
+        </div>
+      </section>
+      <section id="publications">
+        <h3>Publications</h3>
+        <div class="stack">
+            <article>
+              <div class="spaced-list">
+                <h4>Optimización evolutiva del tráfico urbano y las emisiones vehiculares</h4>
+                  <time datetime="2016-02-29">Feb 2016</time>
+              </div>
+              <div class="spaced-list">
+                  <span>
+                    Published by <strong>Programación Matemática y Software</strong>
+                  </span>
+                  <a href="http://www.progmat.uaem.mx:8080/vol8nu1ar6.html">http://www.progmat.uaem.mx:8080/vol8nu1ar6.html</a>
+              </div>
+                <p></p>
+            </article>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="grid-list">
+            <div>
+                <h5>Programming Languages</h5>
+                <ul class="tag-list">
+                    <li>Python</li>
+                    <li>Javascript / Typescript</li>
+                    <li>Java / Apex</li>
+                    <li>HTML &amp; CSS</li>
+                    <li>SQL</li>
+                    <li>C#</li>
+                    <li>C / C++</li>
+                    <li>Ruby</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Web Development</h5>
+                <ul class="tag-list">
+                    <li>Django / Flask</li>
+                    <li>Node / React (CRA, Gatsby)</li>
+                    <li>ASP.NET MVC</li>
+                    <li>Spark Java</li>
+                    <li>Ruby on Rails</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Cloud, Servers and Databases</h5>
+                <ul class="tag-list">
+                    <li>Salesforce / Heroku / AWS Lambda / Netlify</li>
+                    <li>Linux (Nginx / Apache)</li>
+                    <li>PostgreSQL / MySQL / Microsoft SQL Server</li>
+                    <li>Redis / Apache Kafka</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Tools and Others</h5>
+                <ul class="tag-list">
+                    <li>Git / Github</li>
+                    <li>Visual Studio Code</li>
+                    <li>npm / yarn / pip / maven</li>
+                    <li>Docker</li>
+                    <li>Virtual Box / VMWare</li>
+                    <li>Agile / SCRUM</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+      <section id="languages">
+        <h3>Languages</h3>
+        <div class="grid-list">
+            <div>
+                <h6>Spanish</h6>
+              Native speaker
+            </div>
+            <div>
+                <h6>English</h6>
+              Complete professional competence
+            </div>
+        </div>
+      </section>
+      <section id="interests">
+        <h3>Interests</h3>
+        <div class="grid-list">
+            <div>
+                <h5>Cybersecurity</h5>
+                <ul class="tag-list">
+                    <li>OWASP</li>
+                    <li>Ethical hacking</li>
+                    <li>Cisco</li>
+                    <li>HackerOne</li>
+                    <li>PenTesting</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Machine Learning and AI</h5>
+                <ul class="tag-list">
+                    <li>AI and Robotics</li>
+                    <li>Neural Networks</li>
+                    <li>Deep Learning</li>
+                    <li>PyTorch / TensorFlow</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Decentralization Technologies</h5>
+                <ul class="tag-list">
+                    <li>Internet and the Web</li>
+                    <li>Blockchain</li>
+                    <li>Privacy</li>
+                    <li>Energy</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+  </body>
+</html>
